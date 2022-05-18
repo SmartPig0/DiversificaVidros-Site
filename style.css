@@ -2,6 +2,8 @@
     font-family: fontDiversifica;
     src: url('fontDiversifica.ttf') format('truetype'), url('fontDiversifica.ttf') format('opentype');;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Oswald:wght@600&display=swap');
+
 
 *{
     margin: 0;
@@ -14,8 +16,25 @@
     --color-gray-bl: #E3EAF4;
     --color-black-bl: #1B1918; 
     --color-gray-dk: #8D9FB5;
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;  
 }
 
 body{
-    
+    background: var(--color-gray-bl);
+    color: var(--color-black-bl);
+    box-sizing: border-box;
 }
+
+.contact-header{
+    display: flex;
+    background: var(--color-gray-dk);
+    color: #fff;
+    justify-content: flex-end;    
+}
+.icon-header{
+    color: #fff;
+    margin: 5px;
+}
+
+
