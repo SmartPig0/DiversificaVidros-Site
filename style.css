@@ -4,7 +4,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Oswald:wght@600&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -19,22 +18,31 @@
     font-family: 'Lora', serif;
     font-family: 'Oswald', sans-serif;  
 }
-
 body{
     background: var(--color-gray-bl);
     color: var(--color-black-bl);
     box-sizing: border-box;
 }
-
 .contact-header{
     display: flex;
     background: var(--color-gray-dk);
     color: #fff;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
 .icon-header{
     color: #fff;
     margin: 5px;
 }
-
-
+.clock{
+    position: absolute;
+    left: 10px;
+}
+.btns-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.btn-drop{
+    margin: 5px;
+}
