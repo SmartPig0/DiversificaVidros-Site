@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Oswald:wght@600&display=swap');
 
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 :root{
@@ -20,14 +20,13 @@
 }
 body{
     background: var(--color-gray-bl);
-    color: var(--color-black-bl);
-    box-sizing: border-box;
+    color: var(--color-black-bl);   
 }
 .contact-header{
     display: flex;
     background: var(--color-gray-dk);
     color: #fff;
-    justify-content: flex-end;
+    justify-content: flex-end;    
 }
 .icon-header{
     color: #fff;
@@ -37,12 +36,22 @@ body{
     position: absolute;
     left: 10px;
 }
-.btns-desktop{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+.burguer-nav{
+    visibility: hidden;
 }
-.btn-drop{
-    margin: 5px;
+.absoluta{
+    top: 115px;
+    z-index: -1;
+}
+@media (max-width:550px){
+    .desk-nav{
+      
+    }
+    .burguer-nav{
+        visibility: visible;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+    }
+    
 }
