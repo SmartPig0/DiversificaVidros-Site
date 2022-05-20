@@ -27,6 +27,7 @@ body{
     background: var(--color-gray-dk);
     color: #fff;
     justify-content: flex-end; 
+    margin-right: 10px;
 }
 .icon-header{
     color: #fff;
