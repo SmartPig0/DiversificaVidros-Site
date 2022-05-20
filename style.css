@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: fontDiversifica;
     src: url('fontDiversifica.ttf') format('truetype'), url('fontDiversifica.ttf') format('opentype');;
 }
@@ -17,13 +17,8 @@
     --color-gray-dk: #8D9FB5;
     font-family: 'Lora', serif;
     font-family: 'Oswald', sans-serif;  
-}
+}*/
 
 .absoluta{
     top: 150px;    
-}
-@media (max-width:550px){
-    .clock{
-        visibility: hidden;
-    }
 }
