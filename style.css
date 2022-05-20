@@ -26,7 +26,7 @@ body{
     display: flex;
     background: var(--color-gray-dk);
     color: #fff;
-    justify-content: flex-end;    
+    justify-content: flex-end; 
 }
 .icon-header{
     color: #fff;
@@ -40,18 +40,10 @@ body{
     visibility: hidden;
 }
 .absoluta{
-    top: 115px;
-    z-index: -1;
+    top: 150px;    
 }
 @media (max-width:550px){
-    .desk-nav{
-      
+    .clock{
+        visibility: hidden;
     }
-    .burguer-nav{
-        visibility: visible;
-        position: absolute;
-        top: 30px;
-        width: 100%;
-    }
-    
 }
