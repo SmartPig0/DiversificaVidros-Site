@@ -18,28 +18,7 @@
     font-family: 'Lora', serif;
     font-family: 'Oswald', sans-serif;  
 }
-body{
-    background: var(--color-gray-bl);
-    color: var(--color-black-bl);   
-}
-.contact-header{
-    display: flex;
-    background: var(--color-gray-dk);
-    color: #fff;
-    justify-content: flex-end; 
-    margin-right: 10px;
-}
-.icon-header{
-    color: #fff;
-    margin: 5px;
-}
-.clock{
-    position: absolute;
-    left: 10px;
-}
-.burguer-nav{
-    visibility: hidden;
-}
+
 .absoluta{
     top: 150px;    
 }
